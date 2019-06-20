@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # HOMEPAGE for YYT
 
-![Alt text](./src/assets/Screenshot 2019-06-20 at 10.56.36.png)
+![Alt text](src/assets/Screenshot 2019-06-20 at 10.56.36.png)
 
 ## Available Scripts
 
