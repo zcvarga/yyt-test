@@ -1,7 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 # HOMEPAGE for YYT
 
 ![Alt text](https://firebasestorage.googleapis.com/v0/b/react-native-dev-f4b63.appspot.com/o/Screenshot%202019-06-20%20at%2010.56.36.png?alt=media&token=593bdd31-6bc3-487a-8379-c19d1753f337)
+##
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
