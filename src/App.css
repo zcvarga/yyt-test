@@ -1,33 +1,496 @@
+@font-face {
+  font-family: "Calendas";
+  src: url("./assets/fonts/Calendas.otf");
+}
+
+@font-face {
+  font-family: "CalendasItalic";
+  src: url("./assets/fonts/Calendas-Italic.otf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./assets/fonts/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("./assets/fonts/GothamBook.ttf");
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header-background {
+position: relative;
+background-image: url('./assets/header_background.png');
+background-size: cover;
+background-repeat: no-repeat;
+/* background-position: center; */
+width: 100%;
+height: 900px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-subcontainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  
+}
+
+.header-link {
+  font-family: 'Gotham-Bold', 'Helvetica';
+  font-size: 15px;
+  margin: 5px 30px;
+  color: white;
+  letter-spacing: 0;
+}
+
+.header-logo {
+  background-image: url('./assets/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 126px;
+  height: 37px;
+}
+
+.header-space {
+  padding: 3%
+}
+
+.header-shop-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-shop-image {
+  background-image: url('./assets/BasketBlack.svg');
+  height: 18px;
+  width: 17px;
+}
+
+.header-profile-image {
+  background-image: url('./assets/AccountWhite.svg');
+  height: 16px;
+  width: 14px;
+}
+
+.header-shop {
+  background-color: #FFFFFF;
+  height: 99px;
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.header-profile {
+height: 99px;
+width: 99px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.header-tagline {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+  color: white;
+}
+
+.tagline-first-line{
+  font-family: "CalendasItalic";
+  font-style: italic;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.tagline-second-line {
+  font-family: Helvetica;
+  font-size: 58px;
+  color: #FFFFFF;
+  letter-spacing: 7px;
+  text-align: center;
+  line-height: 74px;
+  margin-top: 20px;
+}
+
+.discover-container {
+  margin-top: 20px;
+  outline-style: solid;
+  outline-color: #1E37D2;
+  outline-width: medium;
+  width: 200px;
+  align-self: center;
+}
+
+.discover-button {
+  background-color: #1E37D2;
+  margin: 3px;
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 3.06px;
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.body-background {
+  background-color: #FFFFFF;
+}
+
+.body-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 5% 5% 50px 5%;
+}
+
+.first-row-body {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ width: 90%;
+ height: 710px;
+ 
+}
+
+.first-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 33.33%;
+  max-width: 600px;
+  background-image: url('./assets/classic1.jpg');
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.second-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 33.33%;
+  max-width: 600px;
+  background-image: url('./assets/Safari2.jpg');
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.third-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 33.33%;
+  max-width: 600px;
+  background-image: url('./assets//Mandarin3.jpg');
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.text-over-image {
+  padding-bottom: 50px;
+  color: #FFFFFF;
+  font-family: 'GothamMedium'
+}
+
+#black-text {
+  color: black
+}
+
+.line-divider {
+  
+  width: 100%;
+  color: #D8D8D8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.review {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.review-text {
+  padding: 30px 15%;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 26px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 42px;
+  font-family: "Calendas";
+  font-style: italic;
+}
+
+.quotation {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/quoteMark.svg')
+}
+
+.author {
+font-family: 'GothamBook';
+font-size: 15px;
+color: #9A9BA5;
+letter-spacing: 0;
+text-align: center;
+line-height: 42px;
+}
+
+.second-row-body {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 90%;
+ max-width: 1800px;
+ height: 400px;
+}
+
+.container-bottom {
+ width: 32%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.first-image-bottom {
+  background-size: cover;
+  height: 232px;
+  width: 100%;
+  background-image: url('./assets/BestLinen1.jpg')
+}
+
+.second-image-bottom {
+  background-size: cover;
+  height: 232px;
+  width: 100%;
+  background-image: url('./assets/ClassicCut2.jpg')
+}
+
+.third-image-bottom {
+  background-size: cover;
+  height: 232px;
+  width: 100%;
+  background-image: url('./assets/Sustainable3.jpg')
+}
+
+.title-image-bottom {
+ font-family: 'CalendasItalic';
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.text-image-bottom {
+  font-family: 'GothamBook';
+  font-size: 15px;
+  color: #9A9BA5;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+.body-text-bottom {
+  font-family: 'CalendasItalic';
+font-size: 18px;
+color: #000000;
+letter-spacing: 0;
+text-align: center;
+}
+
+.footer-background {
+  width: 100%;
+  height: 450px;
+  background-color: #000000;
+  padding: 150px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-column {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-column-signup {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer-header {
+  font-family: "CalendasItalic";
+  font-size: 22px;
+  margin-bottom: 35px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-link {
+  font-family: "Calendas";
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #9A9BA5;
+  letter-spacing: 0;
+  line-height: 28px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-wrapper {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
 }
+
+.instagram {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/instagram.svg');
+}
+
+.twitter {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/twitter.svg');
+  margin-left: 40px;
+}
+
+.facebook {
+  height: 20px;
+  width: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/facebook.svg');
+  margin-left: 40px;
+}
+
+.email-input {
+  background-color: black;
+  width: 400px;
+  height: 45px;
+  border: none;
+  border-bottom: 0.5px #4e4e4e solid;
+  font-size: 15px;
+  color: #9A9BA5;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.footer-bottomline {
+  width: 100%;
+  height: 1px;
+  border: 0.5px#4e4e4e solid;
+  padding: 0 100px;
+}
+
+.footer-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+  padding: 0px 100px;
+}
+
+.footer-bottom-copyright {
+  font-family: "Calendas";
+  font-size: 22px;
+  color: white;
+}
+
+.footer-payments-container {
+display: flex;
+flex-direction: row;
+justify-items: center;
+align-content: center;
+}
+
+.visa {
+  height: 30px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/visa.svg');
+  margin-left: 10px;
+}
+
+.amex {
+  height: 30px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/amex.svg');
+  margin-left: 10px;
+}
+
+.paypal {
+  height: 30px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/paypal.svg');
+  margin-left: 10px;
+}
+
+.mastercard {
+  height: 30px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./assets/mastercard.svg');
+  margin-left: 10px;
+}
+
