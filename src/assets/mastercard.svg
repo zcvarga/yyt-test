@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="27px" viewBox="0 0 44 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Mastercard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Footer-—-Desktop" transform="translate(-1205.000000, -472.000000)">
+            <g id="Footer">
+                <g id="Payment-Icons" transform="translate(1206.000000, 473.000000)">
+                    <g id="Mastercard">
+                        <path d="M42,23.6669728 C42,24.4036457 41.3728345,25 40.6000112,25 L1.39998884,25 C0.627500379,25 0,24.4036457 0,23.6669728 L0,1.333665 C0,0.596992078 0.627500379,0 1.39998884,0 L40.6000112,0 C41.3728345,0 42,0.596992078 42,1.333665 L42,23.6669728 Z" id="Stroke-131" stroke="#FFFFFF" stroke-width="0.6"></path>
+                        <circle id="Oval" stroke="#000000" stroke-width="1.2" fill="#FFFFFF" cx="17.5" cy="12.5" r="6.5"></circle>
+                        <circle id="Oval-Copy" stroke="#000000" stroke-width="1.2" fill="#FFFFFF" cx="25.5" cy="12.5" r="6.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
